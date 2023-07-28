@@ -1,0 +1,23 @@
+.landingImg{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    .heroImage{
+        margin: 0 4rem;
+        background-size: contain;
+        position: absolute;
+        z-index: 1;
+    }
+    .titleHead{
+        position: absolute;
+        z-index: 2;
+        color: #ff764d;
+        top: 50%;
+        font-size: 5rem;
+       
+    }
+
+}
