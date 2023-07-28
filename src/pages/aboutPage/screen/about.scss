@@ -21,3 +21,64 @@
     }
 
 }
+
+.foundationText{
+    margin-top: 30%;
+    display: flex;
+   
+    font-size: medium;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+   align-items: center;
+   span{
+    color:#0000ff
+   }
+}
+
+.SecondSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   width: 80vw;
+height: 50vh;
+position: relative;
+    .yellowBack{
+        
+        position: absolute;
+        z-index: 1;
+       background-color: #fbffa7;
+       width: 58.33333vw;
+       height: 58.33333vw;
+       left: 41.66667vw;
+     
+        
+    }
+    .second2{
+        position: absolute;
+        z-index: 2;
+       
+        background-image: url('https://ableton-production.imgix.net/about/photo-2.jpg?dpr=1.25&fit=crop&h=289&ixjsv=1.1.3&w=385');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 33.33333vw;
+        height: 25vw;
+        top: 20vw;
+        left: 58.33333vw;
+  
+        }
+        .second1{
+            position: absolute;
+            z-index: 2;
+         
+            background-image: url("https://ableton-production.imgix.net/about/photo-1.jpg?dpr=1.25&fit=crop&h=481&ixjsv=1.1.3&w=481");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 41.66667vw;
+            height: 41.66667vw;
+            left: 8.33333vw;
+            top: 10vw;
+            }
+
+}
